@@ -1,10 +1,11 @@
 {
-    "id": "instant",
-    "name": "instant",
+    "id": "instant-nather",
+    "name": "instant-nather",
     "description": "Theme for Azuriom by Nather_",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "url": "https://azuriom.com",
     "authors": [
         "Nather_"
-    ]
+    ],
+    "apiId": 33
 }

@@ -54,7 +54,7 @@
 
                 @foreach(['facebook', 'youtube', 'discord', 'teamspeak', 'instagram', 'twitter'] as $social)
                     <div class="form-group">
-                        <label for="{{ $social }}Input">{{ trans('theme::instant.config.'.$social) }}</label>
+                        <label for="{{ $social }}Input">{{ trans('theme::instant-nather.config.'.$social) }}</label>
                         <input type="text" class="form-control @error('footer_social_'.$social) is-invalid @enderror" id="{{ $social }}Input" name="footer_social_{{ $social }}" value="{{ old('footer_social_'.$social, theme_config('footer_social_'.$social)) }}">
 
                         @error('footer_social_'.$social)

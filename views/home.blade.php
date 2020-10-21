@@ -47,7 +47,7 @@
     <section id="works"></section>
     <div class="container">
         <div class="row centered mt mb">
-            <h1>@lang('theme::instant.article')</h1>
+            <h1>@lang('theme::instant-nather.article')</h1>
             @foreach($posts as $post)
                 <div class="col-lg-4 col-md-4 gallery">
                     <a href="{{ route('posts.show', $post->slug) }}" class="link-unstyled">
